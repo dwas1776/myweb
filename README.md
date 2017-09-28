@@ -10,6 +10,7 @@
 6. all version control handled on github
 
 Developer coding time should not exceed two hours
+
 Developer hand-off to Ops should not exceed two hours
 
 
