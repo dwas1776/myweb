@@ -1,0 +1,149 @@
+/*---------------------------------
+    Desktop
+-----------------------------------*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .about-content {
+        margin-top: 0;
+    }
+    .skills {
+        margin-top: 0;
+    }
+    .single-progress::before {
+        width: 83px;
+    }
+}
+
+
+/*---------------------------------
+    Tablet
+-----------------------------------*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .main-menu nav>ul>li {
+        margin-left: 25px;
+    }
+    .main-menu nav>ul>li>a {
+        font-size: 13px;
+    }
+    .single-progress::before {
+        width: 40px;
+    }
+    .sidebar-search-form {
+        max-width: 320px;
+    }
+}
+
+
+/*---------------------------------
+    Large Mobile ( 480px )
+-----------------------------------*/
+
+@media only screen and (max-width: 767px) {
+    .table,
+    .table-cell {
+        display: block;
+        height: auto;
+    }
+    .table-cell {
+        display: block;
+        height: auto;
+    }
+    .page-banner-area {
+        padding: 140px 0 80px;
+    }
+    .header-area.stick {
+        padding: 0;
+    }
+    .header-logo {
+        width: 100%;
+    }
+    .intro-area {
+        padding: 150px 0;
+    }
+    .intro-content h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    .intro-content h1 span {
+        font-size: 24px;
+    }
+    .intro-content .cd-headline {
+        font-size: 18px;
+    }
+    .single-progress {
+        width: 33.33%;
+    }
+    .single-progress::before {
+        width: 41px;
+    }
+    .single-progress:nth-child(3)::before {
+        width: 0;
+        display: none;
+    }
+    .filter-wrapper h5 {
+        display: none;
+    }
+}
+
+
+/*---------------------------------
+    Small Mobile ( 320px )
+-----------------------------------*/
+
+@media only screen and (max-width: 479px) {
+    .section-title h1 {
+        font-size: 24px;
+    }
+    .section-title h1::before {
+        display: none;
+        width: 0;
+    }
+    .section-title h1::after {
+        display: none;
+        width: 0;
+    }
+    .page-banner-area {
+        padding: 120px 0 60px;
+    }
+    .page-banner h2 {
+        font-size: 24px;
+        line-height: 18px;
+        margin-bottom: 10px;
+    }
+    .intro-content h1 {
+        font-size: 24px;
+    }
+    .intro-content h1 span {
+        font-size: 18px;
+    }
+    .intro-content .cd-headline {
+        font-size: 14px;
+    }
+    .single-fact h1 {
+        font-size: 40px;
+    }
+    .single-progress {
+        width: 50%;
+    }
+    .single-progress:nth-child(3)::before {
+        width: 41px;
+        display: block;
+    }
+    .single-progress:nth-child(2)::before,
+    .single-progress:nth-child(4)::before {
+        width: 0;
+        display: none;
+    }
+    .single-blog .blog-summery .title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .comment-list li .child-comment {
+        padding-left: 0;
+    }
+    .single-comment .image {
+        float: none;
+        margin-bottom: 10px;
+    }
+}
