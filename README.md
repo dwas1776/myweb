@@ -1,6 +1,9 @@
 # myweb
 
-## Wish List
+20171002  Sr.  created release tag v0.1-alpha to caputure the original vendor
+               code. This is before any changes were made.
+
+## Project Objectives
 
 1. full page image on first page: quandary.jpeg
 2. about me section with mugshot: dwasmer.jpeg
@@ -10,7 +13,5 @@
 6. all version control handled on github
 
 Developer coding time should not exceed two hours
-
 Developer hand-off to Ops should not exceed two hours
-
 
