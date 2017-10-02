@@ -1,7 +1,20 @@
 # myweb
 
+## Milestones
 20171002  Sr.  created release tag v0.1-alpha to caputure the original vendor
                code. This is before any changes were made.
+
+## General Info
+
+The hexa-personal-resume-cv-portfolio-html-emplate directory contains the 
+complete download from the vendor. 
+
+The my_images directory contains the photos I would like to include in the
+website. 
+
+Developer coding time should not exceed two hours
+Developer hand-off to Ops should not exceed two hours
+
 
 ## Project Objectives
 
@@ -12,6 +25,4 @@
 5. contact info section using node.js
 6. all version control handled on github
 
-Developer coding time should not exceed two hours
-Developer hand-off to Ops should not exceed two hours
 
