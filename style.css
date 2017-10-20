@@ -1807,6 +1807,7 @@ textarea:-ms-input-placeholder {
     font-weight: 400;
     margin-bottom: 10px;
     text-transform: capitalize;
+    line-height: 1.5
 }
 
 .resume-wrapper .single-resume h4 span {
@@ -1816,6 +1817,18 @@ textarea:-ms-input-placeholder {
 
 .resume-wrapper .single-resume p {
     margin-bottom: 0px;
+}
+
+.resume-wrapper .single-resume ul {
+    list-style: disc;
+    margin-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.resume-wrapper .single-resume li {
+    margin-top: 1em;
+    line-height: 1.5;
 }
 
 
